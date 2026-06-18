@@ -6,7 +6,6 @@ const PORT = 3000;
 
 app.get('/', (req, res) => {
     res.send('Aplicação DevOps funcionando!');
-    <h1>oiii</h1>
 });
 
 app.get('/sobre', (req, res) => {
@@ -19,7 +18,7 @@ app.get('/contato', (req, res) => {
 
 if (require.main === module) {
     app.listen(PORT, () => {
-        console.log('Servidor rodando na porta ${PORT}');
+        console.log("Servidor rodando na porta " + PORT);
     });
 }
 
