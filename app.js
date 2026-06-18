@@ -18,10 +18,8 @@ app.get('/contato', (req, res) => {
 
 if (require.main === module) {
     app.listen(PORT, () => {
-        console.log('Servidor rodando na porta ${PORT}');
+        console.log("Servidor rodando na porta " + PORT);
     });
 }
-
-module.exports = app;
 
 module.exports = app;
