@@ -6,6 +6,7 @@ const PORT = 3000;
 
 app.get('/', (req, res) => {
     res.send('Aplicação DevOps funcionando!');
+    <h1>oiii</h1>
 });
 
 app.get('/sobre', (req, res) => {
