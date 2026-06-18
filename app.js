@@ -5,7 +5,7 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req, res) => {
-    res.send('Aplicação DevOps funcionando!');
+    res.send('Aplicação DevOps funcionando! - nova feature');
 });
 
 app.get('/sobre', (req, res) => {
